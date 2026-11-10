@@ -1,0 +1,1 @@
+Product photography sourced from https://www.lucklife.group/product-2/ for the Luck Life product catalog. Images are stored locally to avoid external image failures. Filenames correspond to product IDs in src/data/products.js. Spotlight images are from the featured product panels on the same reference page.
