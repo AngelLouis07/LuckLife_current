@@ -22,19 +22,30 @@ export default function News() {
               </div>
               <div className="news-card__body">
                 <h3>{item.title}</h3>
-                <a href="#" className="news-card__link">
+                <button
+  type="button"
+  className="news-card__link"
+  disabled
+  title="Article coming soon">
                   Read More
                   <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                     <path d="M5 12h14M12 5l7 7-7 7" />
                   </svg>
-                </a>
+                </button>
               </div>
             </article>
           ))}
         </div>
 
         <div className="news__cta">
-          <a href="#" className="btn btn-outline">Read More News</a>
+          <button
+  type="button"
+  className="btn btn-outline"
+  disabled
+  title="More news coming soon"
+>
+  Read More News
+</button>
         </div>
       </div>
     </section>
